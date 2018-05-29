@@ -112,7 +112,7 @@
             "fontColor": "#74a3c7",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\">Technical</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Data Architecture</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features20-5\">Accountability and etc</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features10-7\" aria-expanded=\"false\">Limitation</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Demo</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#bottom\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Bio&amp;Code</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\">Technical</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header8-2\">Data Architecture</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features20-5\">Accountability and etc</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features10-7\" aria-expanded=\"false\">Limitation</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Demo</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box4-a\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\" aria-expanded=\"false\">Bio&amp;Code</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -128,7 +128,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NTUST_Advanced_Database</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NTUST_Advanced_Database</a>",
           "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Theme"
@@ -168,12 +168,13 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download for Windows</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "mobile",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
           "title1": "Blockchain",
@@ -182,12 +183,13 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
           "title2": "Solution",
@@ -196,12 +198,13 @@
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "mobirise",
-              "link": "https://mobirise.com",
-              "size": 40,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 40
             }
           },
           "title3": "Approach",
@@ -364,7 +367,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/1-zua06xdnnj7odh-zltfm-w-761x441.png",
+              "src": "@PROJECT_PATH@/assets/images/123-761x441.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -440,11 +443,12 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "touch",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
             }
           },
           "title1": "What is Mobirise",
@@ -453,11 +457,12 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "responsive",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
             }
           },
           "title2": "What is Mobirise",
@@ -466,11 +471,12 @@
           "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "setting",
-              "link": "https://mobirise.com",
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": ""
             }
           },
           "title3": "What is Mobirise",
@@ -521,12 +527,13 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "touch",
-              "link": "https://mobirise.com",
-              "size": 48,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 48
             }
           },
           "title1": "Touch!",
@@ -535,12 +542,13 @@
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont",
+              "linkInNewWindow": false,
               "name": "responsive",
-              "link": "https://mobirise.com",
-              "size": 48,
-              "family": "MobiriseIcons"
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 48
             }
           },
           "title2": "Swipe!",
@@ -591,7 +599,7 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": true,
             "showArrow": false,
             "imageSize": 70,
@@ -763,7 +771,7 @@
           "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
           "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
           "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/HenryC0825\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/HenryC0825\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/henry.chong.0825\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
           "_tags": [
             "Theme"
           ],
