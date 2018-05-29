@@ -1,0 +1,788 @@
+{
+  "settings": {
+    "name": "Site-05-29_1704",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#74a3c7"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 12,
+    "versionPublish": "4.7.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#74a3c7"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#74a3c7"
+            },
+            ".link, .dropdown-item": {
+              "color": "#74a3c7",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#74a3c7"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#74a3c7",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#5aac98!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Technical</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Data Architecture</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Accountability and etc</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Limitation</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Demo</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Bio&amp;Code</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/220px-ntust-emblem-125x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NTUST_Advanced_Database</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "showArrow": true,
+            "showFeatures": true,
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "#fff",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#5b5f6b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#91683b",
+            "overlayOpacity": 0.8
+          },
+          "title": "Blockchain-backup Database",
+          "text": "Advanced Database final project demonstration website<br>Department of Information Engineering and Computer Science<br>National Taiwan University of Science and Technology",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download for Windows</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "mobile",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Blockchain",
+          "subtitle1": "Awesome",
+          "text1": "When we talk about Blockchain, we always relate it to peer-to-peer network and think that data must be distributed across the network. It will raise concern from people and think that Blockchain would breach the confidentiality of the data.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Solution",
+          "subtitle2": "Awesome",
+          "text2": "Actually, the data architecture of Blockchain itself already provides a good solution for securing the data from unauthorized manipulation, given that the server is protected by sufficient controls, such as access control, network and system security control, and better to be in an internal network.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "mobirise",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Approach",
+          "subtitle3": "Awesome",
+          "text3": "Therefore, I try to build an database based on the data architecture of Blockchain by using Python, Sqlite and RESTful API framework.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "bottom"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "iconsBgColor": "@primaryColor",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Technical",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2000px-python-logo-notext.svg-2000x2000.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Python3",
+          "subtitle1": "Awesome",
+          "text1": "Easy to go with.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sqlite.3.23.0.svg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Sqlite3",
+          "subtitle2": "Awesome",
+          "text2": "Minimalistic, extremely easy-to-use. Can implement other Database to use with in the future",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/flask.sh-590x865.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "RESTful API framework",
+          "subtitle3": "Awesome",
+          "text3": "Flask as the backbone of the infrastructure.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features8",
+          "_anchor": "features8-4",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImage": true,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "showArrow": false,
+            "imageSize": 80,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#d57df7",
+            "containerColor2": "#2a1669",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Data Architecture",
+          "text": "It seems that it is the basic function for most of the accounting system, but we cannot know whether it is simply controlled in the application level, creating a possibility that the data could be changed in database level.<br><br>To ensure that no one can change the data from the start point to the end point, I introduce a simple and secure Blockchain Database API.<br>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/1-zua06xdnnj7odh-zltfm-w-761x441.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "form": {
+            "action": "huashiuanchong@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-2"
+        },
+        {
+          "_inherit": "features13",
+          "_styles": {
+            ".mbr-section-title,.mbr-section-subtitle,.mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {
+              "color": "#fff",
+              "border-color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "#fff",
+            "showFeaturesTitles": false,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/09.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.85
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "Accountability, Confidentiality and Integrity",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "When the user create a transaction record, he encrypts the data with its private key and post the data to Blockchain Database API. Blockchain Database API will decrypt the data with the user’s public key. In this process, the user’s identity has been confirmed. It achieves the objective of accountability and confidentially.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "In the next step, Blockchain Database API will calculate the hash value for the transaction with nonce, i.e. random string, and the previous hash. Blockchain Database API will insert the transaction, nonce and hash to the database.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "To detect any unauthorized change, Blockchain Database API will re-calculate the hash value based on the information of the previous hash, transaction and nonce. If any change is made, the hash value will change and the API can be notified. Therefore, the integrity of the data will be ensured.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_name": "features20",
+          "_anchor": "features20-5"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "columns": 2,
+            "iconsBgColor": "@primaryColor",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Limitation",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "size": 48,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Touch!",
+          "subtitle1": "Awesome",
+          "text1": "Since it is in a centralized architecture, there is a possibility for the attacker, who obtains the administration right, to change the entire database by recalculating the hash value again.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 48,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "Swipe!",
+          "subtitle2": "Awesome",
+          "text2": "This can be safeguarded by the following solutions:<div>1. Clone the transaction to a secured log server</div><div>2. Back up the data incrementally (line by line transaction) rather than full backup</div>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "size": 48,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "Responsive!",
+          "subtitle3": "Awesome",
+          "text3": "Mobile-friendliness, latest website blocks and techniques \"out-the-box\"",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 48,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features10",
+          "_anchor": "features10-7",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/06.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Demo",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eaque harum assumenda voluptas minus impedit repellendus odio, optio ab pariatur, consequuntur, laudantium ipsam. Doloremque ipsam fuga saepe odio facilis incidunt.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-9"
+        },
+        {
+          "_styles": {
+            "H1": {
+              "color": "#434343"
+            },
+            "P": {
+              "color": "#434343"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "inverse": true,
+            "showIcons": true,
+            "iconsBorder": true,
+            "iconsColor": "#434343",
+            "iconsNumber": "two",
+            "imageSize": 50,
+            "containerColor1": "#1cb4a9",
+            "containerColor2": "#bef50a",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "title": "Code and me",
+          "text1": "Visit my Github Repository for the code!",
+          "text2": "If you are interested to work with me, please connect me through Linkedin!",
+          "text3": "Publish your website to a local drive, FTP or host on Amazon S3, Github.",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/18595331-10211958598872612-1007660021535054082-o-1107x1119.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit2",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "MobiriseIcons"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "github",
+              "family": "mobirise-icons-bold",
+              "active": true,
+              "link": "https://github.com/henrychongtw",
+              "newWindow": false
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "linkedin",
+              "family": "socicon",
+              "active": true,
+              "link": "https://www.linkedin.com/in/henry-chong-morfexology/",
+              "newWindow": false
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "timer",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-a"
+        },
+        {
+          "_params": {
+            "showIcons": true,
+            "rows": "1",
+            "listColor": "@infoColor",
+            "btnColor": "@infoColor",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
+          },
+          "heading": "Copyright 2016, Henry Chong Hua Shiuan",
+          "list1": "",
+          "list2": "<a href=\"http://mobirise.com\">Bootstrap Builder</a>",
+          "list3": "<a href=\"http://mobirise.com\">Trendy website blocks</a>",
+          "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
+          "list5": "<a href=\"http://mobirise.com\">Image/Content slider</a>",
+          "list6": "<a href=\"http://mobirise.com\">Contact forms</a>",
+          "list7": "<a href=\"http://mobirise.com\">Image gallery</a>",
+          "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
+          "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
+          "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/HenryC0825\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-b",
+          "_styles": {
+            ".footer-list": {
+              "color": "@infoColor"
+            },
+            ".btn-social": {
+              "border-color": "@infoColor",
+              "color": "@infoColor"
+            },
+            ".btn-social:hover": {
+              "background": "@infoColor",
+              "color": "#fff"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
